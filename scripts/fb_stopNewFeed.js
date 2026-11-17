@@ -87,7 +87,7 @@ function stopNewFeed() {
 
       if (enabled && inBlackList) {
         UfsGlobal.DOM.notify({
-          msg: "Useful-script: Stopped new feed facebook '" + inBlackList + "'",
+          msg: "SadSha Scripts: Stopped new feed facebook '" + inBlackList + "'",
         });
         return null;
       }
@@ -95,14 +95,14 @@ function stopNewFeed() {
   });
 
   UfsGlobal.DOM.notify({
-    msg: "Useful-script: ENABLED Stop new feed facebook",
+    msg: "SadSha Scripts: ENABLED Stop new feed facebook",
   });
 
   return (value = !enabled) => {
     enabled = value;
     UfsGlobal.DOM.notify({
       msg:
-        "Useful-script:" +
+        "SadSha Scripts:" +
         (enabled ? "ENABLED" : "DISABLED") +
         " Stop new feed facebook ",
     });

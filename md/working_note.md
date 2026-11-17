@@ -42,7 +42,7 @@
 
 - [ ] auto refresh tab <https://chromewebstore.google.com/detail/aabcgdmkeabbnleenpncegpcngjpnjkc>
 
-- [ ] <https://www.maxai.me/affiliate/> <https://www.maxai.me/partners/installed/?name=Useful-script>
+- [ ] <https://www.maxai.me/affiliate/> <https://www.maxai.me/partners/installed/?name=SadSha Scripts>
 
 - [ ] decrypt in js <https://github.com/diafygi/webcrypto-examples>
 

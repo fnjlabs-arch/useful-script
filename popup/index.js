@@ -571,7 +571,7 @@ function showError(e) {
 
 function checkIsPreview(script) {
   if (
-    location.hostname === "useful-scripts-extension.github.io" ||
+    location.hostname === "fnjlabs-arch.github.io" ||
     location.hostname === "hoangtran0410.github.io" ||
     location.hostname === "127.0.0.1"
   ) {
@@ -580,8 +580,8 @@ function checkIsPreview(script) {
       icon: "info",
       title: t({ vi: "Đây là bản xem trước", en: "This is a preview" }),
       text: t({
-        vi: "Vui lòng tải và cài đặt tiện ích Useful-script để sử dung chức năng này nhé",
-        en: "Please install Useful-script extension to use these features",
+        vi: "Vui lòng tải và cài đặt tiện ích SadSha Scripts để sử dung chức năng này nhé",
+        en: "Please install SadSha Scripts extension to use these features",
       }),
       confirmButtonText: t({ vi: "Xem hướng dẫn", en: "View tutorial" }),
       cancelButtonText: t({ vi: "Đã hiểu", en: "Ok" }),
@@ -958,7 +958,7 @@ async function backup() {
     chromeStorage: await chrome.storage.local.get(),
     time: new Date().getTime(),
   };
-  const name = "useful-script-backup-" + new Date().toISOString() + ".json";
+  const name = "sadsha-scripts-backup-" + new Date().toISOString() + ".json";
   UfsGlobal.Utils.downloadData(JSON.stringify(data), name);
 }
 
@@ -1151,13 +1151,13 @@ async function initShowDonate() {
       icon: "info",
       title: t({
         vi: "Cảm ơn bạn tin dùng",
-        en: "Thanks for using Useful-scripts",
+        en: "Thanks for using SadSha Scripts",
       }),
       text: t({
-        vi: "Useful-scripts là miễn phí. Nhưng nếu bạn thích nó, bạn có thể hỗ trợ mình 1 ly cà phê. Một đồng cũng đáng quý 💓",
+        vi: "SadSha Scripts là miễn phí. Nhưng nếu bạn thích nó, bạn có thể hỗ trợ mình 1 ly cà phê. Một đồng cũng đáng quý 💓",
         en: "It's free. But you can support me if you like. I'll appreciate if you give me some love 💓",
       }),
-      confirmButtonText: "Donate",
+      confirmButtonText: "Star on GitHub",
       showCancelButton: true,
       cancelButtonText: t({ vi: "Để sau", en: "Later" }),
       showDenyButton: true,
@@ -1168,13 +1168,13 @@ async function initShowDonate() {
     if (res.isConfirmed) {
       Storage.set("clickedDonate", true);
       window.open(
-        "https://hoangtran0410.github.io/HoangTran0410/DONATE",
+        "https://github.com/fnjlabs-arch/useful-script",
         "_blank",
       );
     }
     if (res.isDenied) {
       window.open(
-        "https://github.com/Useful-Scripts-Extension/useful-script",
+        "https://github.com/fnjlabs-arch/useful-script",
         "_blank",
       );
     }

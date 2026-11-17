@@ -138,7 +138,7 @@ export default {
   contentScript: {
     onClick: async () => {
       const { remove: removeNoti, setPosition } = UfsGlobal.DOM.notify({
-        msg: "Useful-script: Click any image to magnify",
+        msg: "SadSha Scripts: Click any image to magnify",
         duration: 99999,
         styleText: `
         transition: none !important;
@@ -187,7 +187,7 @@ export default {
       let hovering = null;
       let div = document.createElement("div");
       div.id = "ufs-magnify-image-hover-div";
-      div.title = "Useful-script: Click to magnify";
+      div.title = "SadSha Scripts: Click to magnify";
       div.addEventListener("click", () => {
         if (hovering) {
           window.top.postMessage(
@@ -357,7 +357,7 @@ function magnifyImage(x, y) {
 
     if (!imgs?.length) {
       UfsGlobal.DOM.notify({
-        msg: "Useful-script: No image found",
+        msg: "SadSha Scripts: No image found",
         x: mouse.x,
         y: mouse.y,
         align: "left",

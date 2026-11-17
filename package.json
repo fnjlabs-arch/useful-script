@@ -1,5 +1,5 @@
 {
-  "name": "useful-scripts",
+  "name": "sadsha-scripts",
   "version": "1.8.0",
   "description": "Chrome extension with useful scripts for various websites",
   "type": "module",
@@ -8,8 +8,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Useful-Scripts-Extension/useful-script"
+    "url": "https://github.com/fnjlabs-arch/useful-script"
   },
-  "author": "HoangTran0410",
+  "author": "SadSha (forked from HoangTran0410)",
   "license": "MIT"
 }

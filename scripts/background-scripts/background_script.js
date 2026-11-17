@@ -113,7 +113,7 @@ async function runScriptsTab(eventChain, world, details, silent = false) {
     });
     chrome.action.setTitle({
       tabId: tabId,
-      title: "Useful Scripts " + (badge ? "(" + badge + ")" : ""),
+      title: "SadSha Scripts " + (badge ? "(" + badge + ")" : ""),
     });
   }
 }
@@ -521,7 +521,7 @@ function main() {
     // create root item in context menu
     chrome.contextMenus.create({
       id: "root",
-      title: "Useful Script",
+      title: "SadSha Scripts",
       contexts: ["all"],
     });
 

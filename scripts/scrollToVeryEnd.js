@@ -27,7 +27,7 @@ export default {
 export function scrollToVeryEnd(animation = true) {
   return new Promise(async (resolve, reject) => {
     const notify = UfsGlobal.DOM.notify({
-      msg: "Useful-script: Scrolling to very end...",
+      msg: "SadSha Scripts: Scrolling to very end...",
       duration: 99999,
     });
 
@@ -87,7 +87,7 @@ export function scrollToVeryEnd(animation = true) {
     let clickToCancel = () => {
       running = false;
       document.removeEventListener("click", clickToCancel);
-      notify.setText("Useful-script: DỪNG scroll do bạn click");
+      notify.setText("SadSha Scripts: DỪNG scroll do bạn click");
       notify.closeAfter(3000);
     };
     document.addEventListener("click", clickToCancel);
@@ -100,7 +100,7 @@ export function scrollToVeryEnd(animation = true) {
       let time = Date.now() - lastScroll.time;
       let secondLeft = Math.round((5000 - time) / 1000);
       notify.setText(
-        `Useful-script: đang scroll xuống cuối ... (${secondLeft}s)`
+        `SadSha Scripts: đang scroll xuống cuối ... (${secondLeft}s)`
       );
 
       if (currentHeight != lastScroll.top) {
@@ -108,7 +108,7 @@ export function scrollToVeryEnd(animation = true) {
         lastScroll.time = Date.now();
       } else if (time > 5000) {
         running = false;
-        notify.setText("Useful-script: scroll XONG");
+        notify.setText("SadSha Scripts: scroll XONG");
         notify.closeAfter(2000);
       }
       await sleep(100);

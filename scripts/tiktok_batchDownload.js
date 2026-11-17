@@ -96,7 +96,7 @@ export default {
   <div class="ufs_floating_btn" @click="showModal = true">📥 {{totalCount}}</div>
   <div class="ufs_container" v-if="showModal" @click.self="showModal = false">
     <div class="ufs_popup">
-      <h1 style="text-align:center">Tiktok - <a target="_blank" href="https://github.com/Useful-Scripts-Extension/useful-script">Useful Scripts</a></h1>
+      <h1 style="text-align:center">Tiktok - <a target="_blank" href="https://github.com/fnjlabs-arch/useful-script">SadSha Scripts</a></h1>
       <h2 style="text-align:center">Found {{totalCount}} videos</h2>
 
       <div class="ufs_popup_header">

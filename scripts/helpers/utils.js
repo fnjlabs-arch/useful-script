@@ -352,7 +352,7 @@ export const runScriptInTabWithEventChain = ({
               if (typeof fn === "function") {
                 if (!silent)
                   console.log(
-                    `> Useful-script: Run SUCCESS`,
+                    `> SadSha Scripts: Run SUCCESS`,
                     scriptId + "\n",
                     eventChain,
                     details
@@ -364,7 +364,7 @@ export const runScriptInTabWithEventChain = ({
             })
             .catch((e) => {
               console.log(
-                `> Useful-script: Run FAILED`,
+                `> SadSha Scripts: Run FAILED`,
                 scriptId + "\n",
                 eventChain,
                 details,

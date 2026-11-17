@@ -82,7 +82,7 @@ export default {
             }
           </style>
           <div>
-            <h3 style="text-align:center">Useful-scripts: Youtube captions</h3><br/>
+            <h3 style="text-align:center">SadSha Scripts: Youtube captions</h3><br/>
             <h4>${title}</h4><br/>
             <ul>
               ${captions

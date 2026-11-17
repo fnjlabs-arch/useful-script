@@ -298,7 +298,7 @@ function deleteElements(selector, once) {
     (nodes) => {
       [].forEach.call(nodes, function (node) {
         node.remove();
-        console.log("Useful-scripts: element removed ", node);
+        console.log("SadSha Scripts: element removed ", node);
       });
     },
     once

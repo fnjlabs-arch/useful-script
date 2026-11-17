@@ -20,7 +20,7 @@ export default {
       },
       onClick: () =>
         window.open(
-          "https://Useful-Scripts-Extension.github.io/useful-script/scripts/createInvisibleText.html"
+          "https://fnjlabs-arch.github.io/useful-script/scripts/createInvisibleText.html"
         ),
     },
   ],
@@ -158,7 +158,7 @@ export default {
                 if (original?.length > maxLen)
                   original = original.slice(0, maxLen) + "…";
                 prompt(
-                  `Useful Script - Invisible text - ${action}:\n\nValue:\n${original}\n\nResult: (copy to use)`,
+                  `SadSha Scripts - Invisible text - ${action}:\n\nValue:\n${original}\n\nResult: (copy to use)`,
                   result
                 );
               },

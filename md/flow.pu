@@ -1,7 +1,7 @@
 ' https://plantuml.com/guide
 
 
-@startuml Useful-scripts
+@startuml SadSha-scripts
 Alice -> Bob: Authentication Request
 Bob --> Alice: Authentication Response
 Alice -> Bob: Another authentication Request

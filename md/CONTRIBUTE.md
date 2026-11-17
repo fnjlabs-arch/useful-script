@@ -8,7 +8,7 @@
 
 ## English
 
-Thank you for your interest in contributing to Useful Scripts! This guide will help you understand how to contribute to this Chrome extension.
+Thank you for your interest in contributing to SadSha Scripts! This guide will help you understand how to contribute to this Chrome extension.
 
 ### Table of Contents
 
@@ -100,7 +100,7 @@ Have a useful script or bookmarklet? Share it with the community!
      contentScript: {
        onClick: () => {
          // Your code here
-         alert('Hello from Useful Scripts!');
+         alert('Hello from SadSha Scripts!');
        },
      },
    };
@@ -199,7 +199,7 @@ Have more time and want to improve the extension itself?
 
 #### 4. Translation
 
-Help make Useful Scripts accessible to more people!
+Help make SadSha Scripts accessible to more people!
 
 **What to translate:**
 - Script names and descriptions
@@ -292,7 +292,7 @@ contentScript: {
 
 3. **Reload extension:**
    - Go to `chrome://extensions/`
-   - Click reload button on Useful Scripts extension
+   - Click reload button on SadSha Scripts extension
    - Or press `Ctrl+R` (Windows/Linux) / `Cmd+R` (Mac)
 
 4. **Test:**
@@ -312,7 +312,7 @@ contentScript: {
 
 - **Email:** <99.hoangtran@gmail.com>
 - **Facebook:** [fb.com/99.hoangtran](https://fb.com/99.hoangtran)
-- **Facebook Group:** [Useful Scripts Community](https://www.facebook.com/groups/fbaio2)
+- **Source code:** [fnjlabs-arch/useful-script](https://github.com/fnjlabs-arch/useful-script)
 - **Issues:** Feel free to ask questions or report bugs
 
 ---
@@ -321,7 +321,7 @@ contentScript: {
 
 ## Tiếng Việt
 
-Cảm ơn bạn đã quan tâm đến việc đóng góp cho Useful Scripts! Hướng dẫn này sẽ giúp bạn hiểu cách đóng góp vào extension Chrome này.
+Cảm ơn bạn đã quan tâm đến việc đóng góp cho SadSha Scripts! Hướng dẫn này sẽ giúp bạn hiểu cách đóng góp vào extension Chrome này.
 
 ### Mục Lục
 
@@ -395,7 +395,7 @@ Bạn có một script hay hoặc bookmarklet hữu ích? Hãy chia sẻ với c
      contentScript: {
        onClick: () => {
          // Code của bạn ở đây
-         alert('Xin chào từ Useful Scripts!');
+         alert('Xin chào từ SadSha Scripts!');
        },
      },
    };
@@ -494,7 +494,7 @@ Có nhiều thời gian và muốn cải thiện extension?
 
 #### 4. Dịch Thuật
 
-Giúp Useful Scripts tiếp cận nhiều người hơn!
+Giúp SadSha Scripts tiếp cận nhiều người hơn!
 
 **Nội dung cần dịch:**
 - Tên và mô tả script
@@ -587,7 +587,7 @@ contentScript: {
 
 3. **Reload extension:**
    - Vào `chrome://extensions/`
-   - Click nút reload trên extension Useful Scripts
+   - Click nút reload trên extension SadSha Scripts
    - Hoặc nhấn `Ctrl+R` (Windows/Linux) / `Cmd+R` (Mac)
 
 4. **Kiểm tra:**
@@ -607,5 +607,5 @@ contentScript: {
 
 - **Email:** <99.hoangtran@gmail.com>
 - **Facebook:** [fb.com/99.hoangtran](https://fb.com/99.hoangtran)
-- **Facebook Group:** [Cộng đồng Useful Scripts](https://www.facebook.com/groups/fbaio2)
+- **Mã nguồn:** [fnjlabs-arch/useful-script](https://github.com/fnjlabs-arch/useful-script)
 - **Issues:** Thoải mái đặt câu hỏi hoặc báo lỗi

@@ -38,7 +38,7 @@ export default {
       doc.body.appendChild(container);
 
       const { setText, closeAfter } = UfsGlobal.DOM.notify({
-        msg: "Useful-script: Injecting scripts...",
+        msg: "SadSha Scripts: Injecting scripts...",
         align: "center",
         styleText: "",
         duration: 9999,

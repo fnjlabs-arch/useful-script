@@ -73,7 +73,7 @@ export default {
             if (details.frameType === "outermost_frame") {
               if (
                 confirm(
-                  "Useful Script - Chống Lừa Đảo\n\n" +
+                  "SadSha Scripts - Chống Lừa Đảo\n\n" +
                     blocked +
                     "\n\n" +
                     "Website bạn đang truy cập được ghi nhận là lừa đảo\n" +
@@ -85,7 +85,7 @@ export default {
                 window.close();
             } else {
               prompt(
-                "Useful Script - Chống Lừa Đảo\n\n" +
+                "SadSha Scripts - Chống Lừa Đảo\n\n" +
                   "Website bạn đang truy cập đã load thêm 1 iframe\n" +
                   "Iframe này được ghi nhận là lừa đảo\n\n" +
                   "HÃY CẨN THẬN!!\n\n" +
@@ -541,7 +541,7 @@ function showResult({ features, isSafe, legitimatePercents }) {
   let resultDiv = document.createElement("div");
   resultDiv.id = id;
   resultDiv.innerHTML = /* html */ `
-  <p class="text">Useful Scripts - Chống Lừa Đảo</p>
+  <p class="text">SadSha Scripts - Chống Lừa Đảo</p>
   <div class="progress-container">
     <svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" class="ufs-circular-progress" style="--progress: ${legitimatePercents}">
       <circle class="bg"></circle>

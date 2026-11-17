@@ -25,7 +25,7 @@ export default {
 
         if (!url.includes("github.com"))
           throw Error(
-            "Link không đúng định dạng.\nLink ví dụ: https://github.com/HoangTran0410/useful-script"
+            "Link không đúng định dạng.\nLink ví dụ: https://github.com/fnjlabs-arch/useful-script"
           );
 
         let repoName = getRepoNameFromUrl(url);
@@ -70,7 +70,7 @@ export default {
 };
 
 // Idea from: https://github.com/FarhadG/init
-// https://github.com/HoangTran0410/useful-script => repoName = HoangTran0410/useful-script
+// https://github.com/fnjlabs-arch/useful-script => repoName = fnjlabs-arch/useful-script
 export function getRepoNameFromUrl(url) {
   let pathName = new URL(url).pathname;
   let [repoName, branchOrHash] =

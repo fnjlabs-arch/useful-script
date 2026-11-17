@@ -2,9 +2,11 @@
 
 ![Logo](/assets/icon128.png)
 
-# Useful scripts - Chrome extension
+# SadSha Scripts - Chrome extension
 
-- [Useful scripts - Chrome extension](#useful-scripts---chrome-extension)
+> **SadSha Scripts** — forked from [Useful-Scripts-Extension/useful-script](https://github.com/Useful-Scripts-Extension/useful-script) (MIT, Copyright (c) 2022 Hoang Tran) and rebranded by SadSha. Original `LICENSE` and attribution kept intact.
+
+- [SadSha Scripts - Chrome extension](#sadsha-scripts---chrome-extension)
   - [Overview](#overview)
   - [Demo](#demo)
   - [Change logs](#change-logs)
@@ -14,17 +16,15 @@
   - [For developer (Demo)](#for-developer-demo)
   - [Contribute](#contribute)
 
-Donate? For better health and ideas <3 [Donate here](https://github.com/HoangTran0410/HoangTran0410/blob/main/DONATE.md)
 
 ## Overview
 
 An extension includes a lot of small extensions. Make your life easier.
 
-- Please join [FACEBOOK GROUP](https://www.facebook.com/groups/fbaio2) of this extension
 
 ## Demo
 
-Try online [Here](https://useful-scripts-extension.github.io/useful-script/popup/popup.html)
+Try online [Here](https://fnjlabs-arch.github.io/useful-script/popup/popup.html)
 
 ## Change logs
 
@@ -71,9 +71,9 @@ Current Versions:
 
 ## Star History
 
-Expected that this useful-script extension will include the functions of [RevealDeletedFBMessages](https://github.com/HoangTran0410/RevealDeletedFBMessages) and [FBMediaDownloader](https://github.com/HoangTran0410/FBMediaDownloader)
+Expected that this SadSha Scripts extension will include the functions of [RevealDeletedFBMessages](https://github.com/HoangTran0410/RevealDeletedFBMessages) and [FBMediaDownloader](https://github.com/HoangTran0410/FBMediaDownloader)
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Useful-Scripts-Extension/useful-script,HoangTran0410/FBMediaDownloader,HoangTran0410/RevealDeletedFBMessages&type=Date)](https://star-history.com/#Useful-Scripts-Extension/useful-script&HoangTran0410/FBMediaDownloader&HoangTran0410/RevealDeletedFBMessages&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=fnjlabs-arch/useful-script,HoangTran0410/FBMediaDownloader,HoangTran0410/RevealDeletedFBMessages&type=Date)](https://star-history.com/#fnjlabs-arch/useful-script&HoangTran0410/FBMediaDownloader&HoangTran0410/RevealDeletedFBMessages&Date)
 
 ## For developer (Demo)
 

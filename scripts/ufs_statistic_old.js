@@ -4,8 +4,8 @@ import { getUserAvatarFromUid } from "./fb_GLOBAL.js";
 export default {
   icon: "/assets/icon32.png",
   name: {
-    en: "Useful-scripts statistic",
-    vi: "Useful-scripts statistic",
+    en: "SadSha Scripts statistic",
+    vi: "SadSha Scripts statistic",
   },
   description: {
     en: "Dev only",

@@ -1,9 +1,8 @@
 {
-  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhadTVWVja6aEjRKN+G2OTLETy593wWzEXeEhoZ54Nzm50IdRHh0qq279daZbfClfXAHPEICCSoRU1DJDSVUQvMKcvn2lhcLyYpcA4zxPH8Wi9txW0iU3pbG3I8/JpRPvt9YZrq5rWPilueOwVIYUviYHL3tUVV+VrugsUEEHxeQ2T6xX4g+Gt1jm8LuLp8aZElT33Utk7O6JDGEBPLck36H+QG2lhhZK8j8O+0gPryO+/k/cydyG9ywfI7iXEF9H+DWPVjU0/qGKNee96YEfHXfTPgNcKWTAmBPNBo1IaLukVJ29gCEKQOizOj+u2nhhXSZC7Md+I8SAFh4ExNRBJQIDAQAB",
   "manifest_version": 3,
-  "name": "Useful Scripts",
-  "description": "Scripts that can make your life faster and better",
-  "homepage_url": "https://github.com/Useful-Scripts-Extension/useful-script",
+  "name": "SadSha Scripts",
+  "description": "Scripts that can make your life faster and better — by SadSha",
+  "homepage_url": "https://github.com/fnjlabs-arch/useful-script",
   "version": "2.2",
   "icons": {
     "16": "./assets/icon16.png",
@@ -41,15 +40,22 @@
     "declarativeNetRequestFeedback",
     "declarativeNetRequestWithHostAccess"
   ],
-  "host_permissions": ["*://*/*", "<all_urls>"],
+  "host_permissions": [
+    "*://*/*",
+    "<all_urls>"
+  ],
   "background": {
     "service_worker": "./scripts/background-scripts/background_script.js",
     "type": "module"
   },
   "web_accessible_resources": [
     {
-      "resources": ["scripts/*"],
-      "matches": ["<all_urls>"]
+      "resources": [
+        "scripts/*"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
     }
   ],
   "declarative_net_request": {

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-Useful Scripts is a Chrome extension that provides a collection of utility scripts for various websites and tasks. It includes scripts for Facebook, Instagram, YouTube, TikTok, Google Drive, and many other platforms. The extension allows users to run scripts on-demand or automatically based on URL patterns.
+SadSha Scripts is a Chrome extension that provides a collection of utility scripts for various websites and tasks. It includes scripts for Facebook, Instagram, YouTube, TikTok, Google Drive, and many other platforms. The extension allows users to run scripts on-demand or automatically based on URL patterns.
 
 ## Architecture
 
@@ -254,6 +254,5 @@ See `OPTIMIZATION_DONE.md` for full details.
 
 ## External Resources
 
-- Demo site: https://useful-scripts-extension.github.io/useful-script/popup/popup.html
-- Facebook Group: https://www.facebook.com/groups/fbaio2
+- Demo site: https://fnjlabs-arch.github.io/useful-script/popup/popup.html
 - Developer tutorials: YouTube playlist in README
